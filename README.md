@@ -1,8 +1,8 @@
-# BeauiePY
+# BeautiePY
 
 ---
 
-**Instructions for Using the Media Organizer Script**
+**Instructions for Using the BeautiePY Script**
 
 1. **Purpose**  
    This script organizes your media files into separate folders for TV shows and movies based on their filenames.
