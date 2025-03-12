@@ -23,7 +23,7 @@
    - Adjust the `movies_folder` and `tv_shows_folder` variables to rename or change the default folder structure for organized files.
 
 4. **How It Works**  
-   - The script identifies TV shows based on filenames containing patterns like `S01E01` or `E03`.
+   - The script identifies TV shows based on filenames containing patterns like `S01E01` or `E01`.
    - All other files are treated as movies.
    - TV shows are moved into a `Series/ShowName/` folder.
    - Movies are moved into a shared `Movies/` folder.
@@ -42,7 +42,7 @@
      Series/
      ├── ShowName/
      │   ├── ShowName.S01E01.mkv
-     │   └── ShowName.S01E02.srt
+     │   └── ShowName.S01E01.srt
      Movies/
      ├── MovieName.mkv
      ├── AnotherMovie.mp4
@@ -58,8 +58,5 @@
 9. **Customization**  
    - You can modify the `valid_extensions` variable to include other file types as needed.
    - Advanced users can add new regex patterns for different naming conventions in the `tv_show_match` regex.
-
-10. **Contact/Help**  
-    For further help or issues, modify the script or refer to the Python documentation.
 
 ---
